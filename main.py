@@ -1,13 +1,16 @@
+#TEST SCRIPT FOR MESSAGE TRANSMISSION
+
+#-----------DEFINITION-----------------
 # List of all global variables
 global STD_TIMEOUT
 
-# Test script for message transmission
+# Import Packages
 import serial.tools.list_ports
 
 # Import Functions
 import Definiton.Functions
 
-# PORT LISTING & SELECTION
+#---------PORT LISTING & SELECTION---------
 ports = serial.tools.list_ports.comports()
 usedPort = 'none'
 
